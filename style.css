@@ -1,0 +1,225 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/* awal navbar */
+.navbar{
+  margin-top: 30px;
+
+}
+
+.navbar-brand{
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.navbar-nav a.active{
+ color: #6E44FF !important;
+}
+
+.navbar-nav a:hover{
+  color: #6E44FF !important;
+}
+
+.nav-link {
+   font-weight: 600;
+  font-size: 24px;
+  margin-right: 46px;
+}
+/* akhir navbar */
+
+/* awal profile */
+
+
+.hi{
+  color : #F5F1ED;
+  margin-top: 50px;
+}
+
+.name{
+  color : #F5F1ED;
+}
+
+.role{
+  color : #F5F1ED;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.illustration img{
+  margin-top: 30px;
+  max-width: 350px;
+}
+
+.button{
+  background-color: #6E44FF; /* Green */
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 35px 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.illustrationdua img{
+  max-width: 340px;
+}
+
+.about{
+  font-weight: 800;
+  margin-top: 30px;
+  font-size: 48px;
+  color: #6E44FF;
+  font-family: 'Poppins';
+}
+
+.detail{
+  font-weight: 200;
+  font-size: 18px;
+  color: #F5F1ED;
+  font-family: 'Poppins';
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button2{
+  background-color: #6E44FF; /* Green */
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 35px 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  
+}
+
+.tools{
+  font-weight: 400;
+  margin-top: 30px;
+  font-size: 24px;
+  color: #6E44FF;
+  font-family: 'Poppins';
+}
+
+ .detaildua{
+  text-align: center;
+  font-weight: 200;
+  font-size: 18px;
+  color: #F5F1ED;
+  font-family: 'Poppins';
+ }
+
+/* akhir profile */
+
+/* awal projects */
+
+
+
+.selected h1{
+  font-weight: 600;
+  color: #F5F1ED;
+}
+.ilussatu img{
+  width: 100%;
+  margin-top: 40px;
+   
+}
+
+.ilusdua img{
+  margin-top: 40px;
+  width: 100%;
+}
+/* akhri projects */
+
+/* awal contacts */
+.quest h1{
+  font-size: 24px;
+  font-weight: 200;
+  color: #F5F1ED;
+}
+
+.email{
+  font-size: 30px;
+  font-weight: 200;
+  color: #F5F1ED;
+}
+
+
+.footer p{
+  margin-left: 35%;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #F5F1ED;
+}
+
+
+
+
+
+
+/* desktop */
+@media (min-width: 992px) {
+   .hi{
+     margin-top: 200px;
+   } 
+
+  .illustration img{
+    margin-top: 100px;
+    margin-left: 50px;
+    max-width: 600px;
+  }
+
+  .about{
+    margin-top: 140px;
+  }
+  .detail{
+    margin-left: 0;
+  }
+
+  .illustrationdua img{
+    max-width: 600px;
+    margin-left: 0;
+  }
+
+  .ilussatu img{
+    width: 100%;
+  }
+
+  .ilusdua img{
+    width: 100%;
+  }
+
+  
+}
+
+/*mobile portrait*/
+  @media (max-width: 575px) {
+    .illustration{
+      order: 1;
+    }
+
+    .write{
+      order: 2;
+    }
+
+
+  }
+
+
+
+
+
+
+
+
