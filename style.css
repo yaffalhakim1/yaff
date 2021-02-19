@@ -122,9 +122,6 @@ html{
 /* akhir profile */
 
 /* awal projects */
-
-
-
 .selected h1{
   font-weight: 600;
   color: #F5F1ED;
@@ -153,16 +150,17 @@ html{
   font-weight: 200;
   color: #F5F1ED;
 }
+/* akhir contacts */
 
 
+/* footer */
 .footer p{
-  margin-left: 35%;
-  margin-bottom: 20px;
+  
   font-size: 12px;
   font-weight: 400;
   color: #F5F1ED;
 }
-
+/* footer */
 
 
 
@@ -208,12 +206,9 @@ html{
     .illustration{
       order: 1;
     }
-
     .write{
       order: 2;
     }
-
-
   }
 
 
