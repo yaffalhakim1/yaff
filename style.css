@@ -136,7 +136,7 @@ html{
   margin-top: 100px;
 }
 .white{
-  background-color: hsl(0, 0, 100%);
+  background-color: hsl(0, 0%, 100%);
 }
 
 .namaprojeksatu{
@@ -159,6 +159,7 @@ html{
 }
 
 .toolssatu{
+  
   margin-top: 120px;
   font-weight: 600;
 }
