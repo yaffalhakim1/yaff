@@ -55,12 +55,12 @@ html{
 
 .illustration img{
   margin-top: 30px;
-  max-width: 350px;
+  width: 340px;
 }
 
 
 .illustrationdua img{
-  max-width: 340px;
+  width: 340px;
 }
 
 .about{
@@ -243,7 +243,7 @@ text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-background-color: #e1306c;
+background-color: #8a3ab9;
 color: #ffffff;
 }
 
@@ -327,44 +327,48 @@ color: #ffffff;
 .button:hover span:after {
   opacity: 1;
   right: 0;
-  
+}
 
 
 
 
 /* desktop */
-@media (min-width: 992px) {
-   .hi{
+ @media (min-width: 992px) { 
+ .hi{
      margin-top: 200px;
    } 
 
   .illustration img{
     margin-top: 100px;
     margin-left: 50px;
-    max-width: 600px;
+    width: 100%;
   }
 
   .about{
     margin-top: 140px;
   }
+
   .detail{
     margin-left: 0;
   }
 
   .illustrationdua img{
-    max-width: 600px;
+    width: 100%;
     margin-left: 0;
   }
   .shortstoryprojek2{
     margin-bottom: 50px;
   }
+ }
+
   
-}
+
 
 /*mobile portrait*/
   @media (max-width: 575px) {
-    .illustration{
+    .illustration img{
       order: 1;
+     
     }
     .write{
       order: 2;
@@ -375,7 +379,7 @@ color: #ffffff;
     .usetools{
       margin-bottom: 50px;
     }
-  }
+  } 
 
 
 
