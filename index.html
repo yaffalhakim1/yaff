@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- my css -->
   <link rel="stylesheet" href="style.css">
 
@@ -17,7 +18,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js "></script>
   <title>Muhammad Yafi Alhakim</title>
 
 </head>
@@ -46,13 +47,13 @@
   <!-- akhir navbar -->
 
   <!-- awal Home -->
-  <section class="satu">
+  <section class="satu" data-aos="fade-up" data-aos-duration="400">
     <div class="container">
-      <div class="row mt-5">
+      <div class="row">
         <div class="col text-lg-start text-md-center text-sm-center text-center write">
-          <h1 class="hi">HI!, I'M</h1>
+          <h1 class="hi">My name is</h1>
           <h1 class="name">MUHAMMAD YAFI ALHAKIM</h1>
-          <h3 class="role">UI Designer & Front-End Developer</h3>
+          <h3 class="role">I am <span id="typed"></span></h3>
           <!-- button -->
           <button class="button"><span>Download CV </span></button>
           <!-- button -->
@@ -68,7 +69,7 @@
 
 
   <!-- awal profile -->
-  <section id="dua" style="margin-top: 90px;">
+  <section id="dua" data-aos="fade-up" data-aos-duration="400" style="margin-top: 100px;">
     <div class="container">
       <div class="row profile">
         <div class="col">
@@ -81,7 +82,7 @@
             About Me
           </h1>
           <p class="detail">
-            Hello, my name is Muhammad Yafi Alhakim, a UI Designer and Front-End Developer. I love design exploration
+            Hello, my name is Muhammad Yafi Alhakim, an UI Designer and Front-End Developer. I love design exploration
             and looking
             through references for hours then implementing them into my designs. Hope you like my explorations!
           </p>
@@ -121,41 +122,43 @@
 
 
   <!-- project -->
-  <section id="tiga">
-    <div class="fullbg white">
-      <div class="container tempattulis">
-        <div class="row">
-          <div class="col-sm-12 col-lg-10 tempatnulis">
-            <div class="namaprojeksatu">
-              Xdoctr Medica Landing Page
-            </div>
-            <div class="shortstoryprojek2 text-lg-start text-md-start text-sm-start text-start">
-              Pengalaman terdahulu dimana sulitnya <br>mencari informasi tentang sebuah klinik, <br>maka dibuatlah
-              landing
-              page
-              yang menceritakan <br>poin-poin penting dari suatu klinik
+  <section id="tiga" data-aos="fade-up" data-aos-duration="400">
+    <div class="container">
+      <h1 class="projects text-center">Projects</h1>
+      <p class="detail text-center mb-5">Showcase section about my current projects</p>
+      <div class="row card-container d-flex justify-content-center align-items-center">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="projects/karya-dua.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-2">
-            <div class="row">
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-12">
-                <div class="toolssatu">Design Tool</div>
-                <div class="usetools">Figma</div>
-              </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card card-two">
+            <img src="projects/karya-dua.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="projeksatu d-flex justify-content-center">
-        <img src="/projects/desktop123.png">
-      </div>
+
     </div>
   </section>
   <!-- akhir project -->
 
 
   <!-- awal contacts-->
-  <section id="empat" style="margin-top: 100px;">
+  <section id="empat" data-aos="fade-up" data-aos-duration="400" style=" margin-top: 100px;">
     <div class="container">
       <div class="quest text-lg-center text-md-center text-sm-center text-center">
         <h1>Do you have any projects to get done?</h1>
@@ -164,8 +167,7 @@
         Tell me!
       </div>
 
-      <div class="wrapper">
-
+      <div class="wrapper" data-aos="fade-up" data-aos-duration="400">
         <a href="https://www.instagram.com/yaff_alhakim/">
           <div class="icon instagram">
             <div class="tooltip">Instagram</div>
@@ -209,8 +211,8 @@
 
 
 
-  < <footer class="footer mt-4">
-    <div class="container">
+  <footer class="footer mt-4">
+    <div class=" container" data-aos=" fade-in" data-aos-duration="400">
       <div class="attribution text-lg-center text-md-center text-sm-center text-center">
         <p>Site designed by Muhammad Yafi Alhakim. Icons by <a href="https://icons8.com/"
             style="text-decoration: none; color: #F5F1FD;">icons8</a> and
@@ -220,25 +222,40 @@
         </p>
       </div>
     </div>
-    </footer>
+  </footer>
 
 
 
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
-    <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-      </script>
+  <!-- typed.js -->
+  <script type="text/javascript">
+    new Typed('#typed', {
+      strings: ['Front End Developer', 'UI Designer'],
+      typeSpeed: 40,
+      delaySpeed: 90,
+      loop: true
+    });
+  </script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
+   
 </body>
 
 </html>
