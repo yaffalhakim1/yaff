@@ -72,28 +72,24 @@
   <section id="dua" data-aos="fade-up" data-aos-duration="400" style="margin-top: 100px;">
     <div class="container">
       <div class="row profile">
-        <div class="col">
-          <div class="illustrationdua">
-            <img src="/illustration/Illustration2.png">
-          </div>
-        </div>
         <div class="col text-lg-start text-md-center text-sm-center text-center">
-          <h1 class="about">
+          <h1 class="about d-flex justify-content-center">
             About Me
           </h1>
-          <p class="detail">
+          <p class="detail d-flex justify-content-center text-center">
             Hello, my name is Muhammad Yafi Alhakim, an UI Designer and Front-End Developer. I love design exploration
             and looking
             through references for hours then implementing them into my designs. Hope you like my explorations!
           </p>
-          <h3 class="tools">
+          <h3 class="tools d-flex justify-content-center">
             Tools and Skills
           </h3>
-          <p class="detaildua text-lg-start text-md-center text-sm-center text-center">
+          <p class="detaildua d-flex justify-content-center">
             Here are some tools and skill that i use to design Website and User Interface
           </p>
-          <div class="row" data-aos="fade-up" data-aos-duration="400">
-            <div class=" col-sm-auto col-lg-auto col-md-auto mt-3">
+          <div class="row col-sm-auto d-flex justify-content-center align-items-center" data-aos="fade-up"
+            data-aos-duration="400">
+            <div class="col-sm-auto d-flex justify-content-center align-items-center mt-3">
               <img src="/tools/html-5 1.svg" alt="HTML5">
             </div>
             <div class="col-sm-auto d-flex justify-content-center align-items-center mt-3">
@@ -127,26 +123,29 @@
       <h1 class="projects text-center">Projects</h1>
       <p class="detail text-center mb-5">Showcase section about my current projects</p>
       <div class="row card-container d-flex justify-content-center align-items-center">
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="400">
           <div class="card">
             <img src="projects/karya-dua.png" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Xdoctr Medica</h5>
+              <p class="card-text">sebuah landing page untuk website klinik agar lebih mudah mencari jika dalam keadaan
+                darurat</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">The
+                Design</button>
+
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="400">
           <div class="card card-two">
             <img src="projects/karya-dua.png" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">The
+                Design</button>
             </div>
           </div>
         </div>
@@ -155,6 +154,24 @@
     </div>
   </section>
   <!-- akhir project -->
+
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="/projects/karya-dua.png" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 
   <!-- awal contacts-->
@@ -252,10 +269,14 @@
   <script>AOS.init();</script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-   
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
